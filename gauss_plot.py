@@ -40,7 +40,7 @@ fig = plt.figure(1, figsize=(6, 4))
 ax = fig.add_subplot(111)
 
 ax.axhline(0, color='k')
-
+plt.text(0.8,1,"Alvaro Osorio, alvarosorio11@gmail.com", fontsize = 6)
 ax.fill_between(x_full, y_full, edgecolor='k', facecolor='0.8')
 ax.fill_between(x_sigma3, y_sigma3, y2=0, edgecolor='', facecolor='0.6')
 ax.fill_between(x_sigma2, y_sigma2, y2=0, edgecolor='', facecolor='0.4')
